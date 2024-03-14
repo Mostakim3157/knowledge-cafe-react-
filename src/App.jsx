@@ -1,17 +1,28 @@
-
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Blogs from "./components/Blogs/Blogs";
+import Bookmaarks from "./components/Bookmarks/Bookmaarks";
+import Header from "./components/Header/Header";
 
 function App() {
- 
+
+  const [bookMarks, setBookMarks] = useState([])
+  const handleBookMark = (blog)=>{
+   const newBookMarks = [...bookMarks, blog]
+   setBookMarks(newBookMarks)
+  }
 
   return (
     <>
-     
-      <h1 className='text-6xl text-red-50 bg-red-500'>Vite + React</h1>
-      
-     
+      <div className="max-w-screen-xl mx-auto mb-12 ">
+      <Header></Header>
+      <div className="md:flex ">
+        <Blogs handleBookMark={handleBookMark}></Blogs>
+        <Bookmaarks bookMarks={bookMarks}></Bookmaarks>
+      </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
