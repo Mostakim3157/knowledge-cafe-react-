@@ -5,7 +5,7 @@
         "author": "Eleanor Parker",
         "author_img": "https://i.ibb.co/vjPkj6k/5371931-33466.jpg",
         "post_date": "2024-03-14",
-        "reading_time": "12 min",
+        "reading_time": 12,
         "title": "Exploring the Mysteries of Quantum Mechanics",
         "hashtags": ["science", "quantum", "physics"]
     },
@@ -15,7 +15,7 @@
         "author": "Samuel Blackwood",
         "author_img": "https://i.ibb.co/vjPkj6k/5371931-33466.jpg",
         "post_date": "2024-03-13",
-        "reading_time": "8 min",
+        "reading_time": 8,
         "title": "The Art of Mindfulness: Finding Peace in Chaos",
         "hashtags": ["mindfulness", "wellness", "meditation"]
     },
@@ -25,7 +25,7 @@
         "author": "Gabriel Foster",
         "author_img": "https://i.ibb.co/vjPkj6k/5371931-33466.jpg",
         "post_date": "2024-03-12",
-        "reading_time": "15 min",
+        "reading_time": 15,
         "title": "Unraveling the Enigma of Artificial Intelligence",
         "hashtags": ["AI", "technology", "machinelearning"]
     },
@@ -35,7 +35,7 @@
         "author": "Isabella Cruz",
         "author_img": "https://i.ibb.co/vjPkj6k/5371931-33466.jpg",
         "post_date": "2024-03-11",
-        "reading_time": "10 min",
+        "reading_time": 10,
         "title": "The Culinary Delights of Italian Cuisine",
         "hashtags": ["food", "Italian", "cooking"]
     },
@@ -45,7 +45,7 @@
         "author": "Alexander Reed",
         "author_img": "https://i.ibb.co/vjPkj6k/5371931-33466.jpg",
         "post_date": "2024-03-10",
-        "reading_time": "7 min",
+        "reading_time": 7,
         "title": "Rediscovering Classic Literature: Timeless Gems",
         "hashtags": ["literature", "classics", "books"]
     }
